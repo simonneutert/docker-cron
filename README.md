@@ -10,7 +10,6 @@ simple Dockerfiles with working cron, taken from this German blog post on [ueber
 ### Dockerfile
 
 ```
-
 FROM alpine:3.7
 LABEL maintainer "Patrick Baber <patrick.baber@ueber.io>"
 
