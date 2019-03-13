@@ -5,10 +5,12 @@ simple Dockerfiles with working cron, taken from this German blog post on [ueber
 ```
 * * * * * echo "Hello world" >> /dev/stdout 2>&1
 # crontab requires an empty line at the end of the file
+```
 
 ### Dockerfile
 
 ```
+
 FROM alpine:3.7
 LABEL maintainer "Patrick Baber <patrick.baber@ueber.io>"
 
