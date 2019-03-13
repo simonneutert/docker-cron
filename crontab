@@ -1,0 +1,1 @@
+* * * * * echo "Hello world" >> /dev/stdout 2>&1
